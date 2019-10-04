@@ -24,6 +24,7 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  return names.filter(name => name.indexOf('Stark') !== -1);
 }
 
 // Ne pas modifier l'export
